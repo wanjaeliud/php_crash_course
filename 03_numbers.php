@@ -54,7 +54,23 @@
 
 // Number functions
     echo "Number functions". "<br>";
+    echo "abs(-15) " . abs(-15) . "<br>";
+    echo "pow(2, 3) " . pow(2, 3) . "<br>";
+    echo "sqrt(16) " . sqrt(16) . "<br>";
+    echo "max(2, 9, 3) " . max(2, 9, 3) . "<br>";
+    echo "min(2, 4, 6) " . min(2, 4, 6) . "<br>";
+    echo "round(2.4) " . round(2.4) . "<br>";
+    echo "round(2.6) " . round(2.6) . "<br>";
+    echo "floor(2.6) " . floor(2.6) . "<br>";
+    echo "ceil(2.4) " . ceil(2.4) . "<br>";
+    echo "<br>";
 
 // Formatting numbers
+    echo "Formatting numbers". "<br>";
+    $number = 123456789.454655;
+    echo number_format($number, 2, ',', ' '). "<br>";
+    echo "<br>";
 
 // https://www.php.net/manual/en/ref.math.php
+    echo "Read more in the documentation". "<br>";
+    echo '<a href="https://www.php.net/manual/en/ref.math.php"> more on Numbers and math in Php</a>';

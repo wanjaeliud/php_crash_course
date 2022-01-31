@@ -1,6 +1,7 @@
 <?php
 
 // Create simple string
+$hello = "get going";
 
 // String concatenation
 
