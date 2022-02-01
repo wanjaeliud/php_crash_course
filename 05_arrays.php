@@ -1,6 +1,14 @@
 <?php
 
+// What are arrays?
+    /* they are variable that can contain more than one values
+        it contains a series or list of values
+    */
+
 // Create array
+    $name = array();
+    $fruits = [];
+
 
 // Print the whole array
 
